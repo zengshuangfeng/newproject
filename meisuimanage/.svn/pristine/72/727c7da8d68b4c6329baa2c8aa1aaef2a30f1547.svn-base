@@ -1,0 +1,141 @@
+package com.meisui.manage.entity;
+
+import java.util.Date;
+
+public class Vehicle {
+	private int id;
+	private String name;//座驾名称
+	private int price;//座驾单价（钻）
+	private int level;//'座驾级别 0普通 1青铜 2白银 3黄金',
+	private String pic;//座驾图片
+	private int time_limit;//期限天数
+	private int type;//类型 0表示普通类型 1表示为神秘车型
+	private int rare_level;//稀有度
+	private int divide;
+	private int sort;
+	private String info;//座驾简介
+	private String static_pic;//座驾静态图片
+	private String special_pic;//座驾特殊动态图
+	private Date create_date;
+	private Date update_date;
+	private String w_name;
+	private int is_online;//是否上线 0为否 1为上线
+	private int is_del;
+	private String platform;//渠道:00全渠道， 10 IOS 20安卓
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public int getLevel() {
+		return level;
+	}
+	public void setLevel(int level) {
+		this.level = level;
+	}
+	public String getPic() {
+		return pic;
+	}
+	public void setPic(String pic) {
+		this.pic = pic;
+	}
+	public int getTime_limit() {
+		return time_limit;
+	}
+	public void setTime_limit(int time_limit) {
+		this.time_limit = time_limit;
+	}
+	public int getType() {
+		return type;
+	}
+	public void setType(int type) {
+		this.type = type;
+	}
+	public int getRare_level() {
+		return rare_level;
+	}
+	public void setRare_level(int rare_level) {
+		this.rare_level = rare_level;
+	}
+	public int getDivide() {
+		return divide;
+	}
+	public void setDivide(int divide) {
+		this.divide = divide;
+	}
+	public int getSort() {
+		return sort;
+	}
+	public void setSort(int sort) {
+		this.sort = sort;
+	}
+	public String getInfo() {
+		return info;
+	}
+	public void setInfo(String info) {
+		this.info = info;
+	}
+	public String getStatic_pic() {
+		return static_pic;
+	}
+	public void setStatic_pic(String static_pic) {
+		this.static_pic = static_pic;
+	}
+	public String getSpecial_pic() {
+		return special_pic;
+	}
+	public void setSpecial_pic(String special_pic) {
+		this.special_pic = special_pic;
+	}
+	public Date getCreate_date() {
+		return create_date;
+	}
+	public void setCreate_date(Date create_date) {
+		this.create_date = create_date;
+	}
+	public Date getUpdate_date() {
+		return update_date;
+	}
+	public void setUpdate_date(Date update_date) {
+		this.update_date = update_date;
+	}
+	public String getW_name() {
+		return w_name;
+	}
+	public void setW_name(String w_name) {
+		this.w_name = w_name;
+	}
+	public int getIs_online() {
+		return is_online;
+	}
+	public void setIs_online(int is_online) {
+		this.is_online = is_online;
+	}
+	public int getIs_del() {
+		return is_del;
+	}
+	public void setIs_del(int is_del) {
+		this.is_del = is_del;
+	}
+	public String getPlatform() {
+		return platform;
+	}
+	public void setPlatform(String platform) {
+		this.platform = platform;
+	}
+
+}
